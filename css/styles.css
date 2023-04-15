@@ -1,0 +1,18 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Changa', sans-serif;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+    color: white;
+  }
+
+.navbar {
+    background-color: grey;
+}
