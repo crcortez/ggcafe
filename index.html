@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <!-- css stylesheets -->
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="css/styles.css" />
 
@@ -15,9 +15,8 @@
 
         <title>OneHP Cafe</title>
     </head>
-                                                                                                        
     <body>
-        <header>
+        <header class="jumbotron jumbotron-fluid">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -28,21 +27,36 @@
             </div>
         </header>
 
-        <div class="row">
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <ul class="navbar-nav">
+            <li class="nav-item active"><a href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="games.html">Games</a></li>
+            <li class="nav-item"><a class="nav-link" href="food.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="rates.html">Rates</a></li>
+            <li class="nav-item"><a class="nav-link" href="reservations.html">Reservations</a></li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+
+
+<!--        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
             <div class="col">
-            <nav class="nav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Games</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Rates</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Reservations</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                </ul>
-            </nav>
+                <nav class="nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Games</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Rates</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Reservations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            -->
             </div>
         </div>
-    </div>
         <div class="container">
             <div class="row row-content">
                 <div class="col-md-8 mx-auto">
@@ -73,11 +87,13 @@
             </div>
         </div>
 
+<footer>
 
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
+</footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         
         
     </body>
