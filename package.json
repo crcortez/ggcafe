@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crcortez/ggcafe.git"
+    "url": "git+https://github.com/crcortez/onehpcafe.git"
   },
   "author": "Chanella Cortez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/crcortez/ggcafe/issues"
+    "url": "https://github.com/crcortez/onehpcafe/issues"
   },
-  "homepage": "https://github.com/crcortez/ggcafe#readme",
+  "homepage": "https://github.com/crcortez/onehpcafe#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
