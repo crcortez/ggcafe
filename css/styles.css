@@ -9,7 +9,7 @@ h1, h2, h3 {
 .jumbotron {
     margin: 0;
     padding: 20px;
-    background-image: linear-gradient(to right, #143465, #171d3b, #082b8c);
+    background-color: black;
     color: white;
   }
 
@@ -23,12 +23,17 @@ h1, h2, h3 {
     min-height: 200px;
   }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}  
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
   }
   
 .carousel {
-    border: solid #5637dd;
+    border: solid #000000;
   }
   
 #carouselButton {
